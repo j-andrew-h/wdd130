@@ -1,0 +1,58 @@
+body {
+    background-color: #f390bb;
+    display: block;
+    width: 340px;
+    margin: 0 auto;
+}
+
+img {
+    width: 40%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#headline {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+
+#headline p {
+    margin: 5px auto;
+}
+
+#headline h6 {
+    margin: 10px auto;
+}
+
+#list {
+    color: black;
+    padding: 0;
+}
+
+#list h5 {
+    margin: 5px auto;
+    font-weight: 900;
+}
+
+#hero {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#hero p{
+    width: 70%;
+    margin: 20px auto;
+    color: white;
+    font-size: 28px;
+}
+
+#source p{
+    margin: 0 auto;
+    font-size:14px;
+    color: black;
+    width: 80%;
+}
+
