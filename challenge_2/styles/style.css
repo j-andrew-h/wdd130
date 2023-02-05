@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+.title img {
+    width: 100%;
+}
+
+.images img {
+    width: 200px;
+    margin: 20px;
+    border: 10px solid rgb(61, 61, 61);
+    border-radius: 50%;
+}
