@@ -232,6 +232,47 @@ footer a:hover {
 }
 
 
+#rates {
+    
+}
+#rates-info {
+    position: absolute;
+    left: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr;
+}
+
+#rates img {  
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    border: 2px solid black;
+}
+
+#rates-info p {
+    grid-column: 1/5;
+    grid-row:1/2;
+
+    border: 2px solid black;
+}
+
+.rates-box {
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.three-night {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.six-night {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
