@@ -1,0 +1,61 @@
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+
+    border: 2px solid black;
+}
+
+header a {
+    width: 80px;
+    justify-self: center;
+    align-self: center;
+    padding-top: 5px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav a {
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+}
+
+
+
+#content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+
+    max-width: 1600px;
+    margin: 0px auto;
+}
+
+#welcome {
+    grid-row: 1/2;
+    grid-column: 1/9;
+    border: 2px solid black;
+}
+
+#introduction {
+    grid-column: 2/8;
+    grid-row: 4/5;
+
+    border: 2px solid black;
+}
+
+#story-link {
+    grid-column: 2/4;
+    grid-row: 6/7;
+
+    border: 2px solid black;
+}
+
+#buildcrafting-link {
+    grid-column: 6/8;
+    grid-row: 6/7;
+}
+
